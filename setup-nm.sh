@@ -6,8 +6,8 @@ cat << EOF
 │ ⬇ Installing aws            │
 └─────────────────────────────┘
 EOF
-# curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
-# sudo installer -pkg ./AWSCLIV2.pkg -target /
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg ./AWSCLIV2.pkg -target /
 echo which aws: 
 cat << EOF
 ┌─────────────────────────────┐
@@ -34,7 +34,7 @@ cat << EOF
 │ ⬇ Installing brew           │
 └─────────────────────────────┘
 EOF
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 cat << EOF
 ┌─────────────────────────────┐
 │ 🏁 Finished brew.           │
@@ -422,7 +422,7 @@ cat << EOF
 │ ⬇ Installing ohmyzsh       │
 └─────────────────────────────┘
 EOF
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cat << EOF
 ┌─────────────────────────────┐
 │ 🏁 Finished ohmyzsh.        │
