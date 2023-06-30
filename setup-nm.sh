@@ -425,7 +425,7 @@ EOF
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cat << EOF
 ┌─────────────────────────────┐
-│ 🏁 Finished ohmyzsh.        │
+│ 🏁 Finished ohmyzsh.         │
 └─────────────────────────────┘
 EOF
 # END ohmyzsh steps
